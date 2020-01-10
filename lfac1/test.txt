@@ -1,0 +1,63 @@
+var a = 3;
+var b = -2;
+var c = 1;
+var z = 10;
+var y = 10.4;
+var xyz;
+var d, e;
+string k='abcd';
+string h='efg';
+string j;
+var l;
+var s;
+
+var function fff( var a, var c, string d )
+{
+
+    x = x + 1;
+
+    send d;
+}
+
+main {
+
+    if (a<b)
+        a=b+3; 
+    endif
+
+    if (a>=b) 
+        h='test1';
+    else
+        j='test2';
+    endif
+
+    Eval( 4 + 3);
+
+    while (z != y) then
+        z=z+1;
+    endwhile
+
+    for (z=1,z<=y,z = z + 4) then
+        z=z+1;
+    endfor
+
+    l=12+14;
+    a=l*9;
+    print(l);
+    s=a+1;
+
+    a = yzxc;
+
+    c=cmmmc(23,10);
+
+    Eval(c*123);
+
+    d = minim(minim(5+6,7), 2)*5+6;
+
+    e = y;
+    j=k^h;
+    j='sir1'^'sir2';
+    j=k^'sir3';
+    print(a+minim(2,3));
+}
+endmain

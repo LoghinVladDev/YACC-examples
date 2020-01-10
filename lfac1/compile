@@ -1,0 +1,3 @@
+yacc ex1.y -d
+flex ex1.l
+gcc lex.yy.c y.tab.c -ll -o exec

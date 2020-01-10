@@ -1,0 +1,79 @@
+integer : var1;
+integer : var2 <- 2, var3;
+
+float : var4, var5 <- 5, var6 <- 3.6;
+
+integer : a; double : x; bool : z;
+
+integer @ : y;
+integer : vect{100};
+
+char : liter;
+
+char : sirPrimitiv{100};
+
+string : sirSmecher <- 'aaaaaaabc';
+
+
+
+integer : matriceDePlebei{100, 100};
+integer @@ : adresaDeMatrice;
+
+integer : method sum[ integer : a, integer : b ];
+
+
+item point
+\\
+    integer : X as private;
+    integer : Y as private;
+    integer : method getX[] as public;
+    double : method getModulo[] as public;
+    method setValues[ integer : x, integer : y ] as public;
+    integer : method getY[]
+    \\
+        result y;
+    // as public
+//
+
+integer : x;
+
+integer : <point> method getX[]
+\\
+    result x;
+//
+
+integer : x;
+
+
+
+integer : i;
+
+integer : method main []
+\\
+
+    get[ var1 ];
+    show[ var1 ];
+    get [ var2 ];
+    show [ max [ var1, var2 ] ];
+
+    while [ var2 > 0 ] do
+        var2 <- var2 - 1;
+    endwhile
+
+    for [ i<-1; i < var1; i<-i+1 ] do
+        var2<-var2 * 2;
+        var2<- var2 - 1;
+
+    endfor
+
+
+    y <- vect;
+
+    show [ #y+2 ];
+
+    y <- #var1;
+
+    show [ #y ];
+    eval[3 + var6];
+    result 0;
+//
